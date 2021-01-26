@@ -1,0 +1,90 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Login">
+        <meta name="author" content="Wibinx">
+        <link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <title>Wibinx | Login</title>
+        
+    </head>
+    <body>
+        <main class="main-container">
+            <div class="login-wrapper">
+
+                <div class="left-container">
+                    <div class="header">
+                        <!-- kembali ke homepage -->
+                        <a class="arrow" href="index.html">←</a>
+                        <a class="register" href="daftar.html">Daftar</a>
+                    </div>
+                    <div class="main">
+                        <h2>Login</h2>
+                        <p>Hello! Silahkan isi username dan password untuk masuk ke akun</p>
+
+                        <form action=""> 
+                            <div class="forminput">
+                                <input   type="text" name="username" placeholder="Username">
+                                  
+                            </div>
+                            <div class="forminput">
+                                <input type="password" id="password" name="password" placeholder="Password">
+                                <span class="btn-show-pass" onclick="toggle()"><i class="fa fa-eye" aria-hiddden="true" id="eye" ></i></span>
+                            </div>
+                            <div class="forgotPass">
+                                <a onclick="lupaPass()" style="cursor: pointer;">Lupa password?</a>
+                            </div>
+                            <div class="login-now">
+                                <a href="#">Login</a>
+                            </div>
+
+                            
+                        </form>
+                        
+                    </div>
+                    <div class="footerregister"></div> 
+                    
+                </div>    
+                 <!--Right container(img) -->
+                <div class="side-container">
+                    <div class="side-text-container">
+
+                        <div class="short-line">
+                            <hr>
+                        </div>
+                        
+                        <div class="text">
+                            <img src="image/logoputih.png" width="100vmax" height="40vmax">
+                            <h3>Jangkau lebih banyak pelanggan</h3>
+                            <p>Buat link bio yang elegan sekarang dan jadilah yang unggul daripada lainnya! </p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </main>
+         
+
+     <script>
+        var state= false;
+        function toggle(){
+            if (state) {
+                document.getElementById("password").setAttribute("type","password");
+                
+                state=false;
+            }
+            else{
+                document.getElementById("password").setAttribute("type","text");
+                
+                state=true;
+            }
+        }
+      </script>
+      <script>
+function lupaPass() {
+  alert("Jika lupa password, silahkan hubungi admin Wibinx di Instagram @wibinxcom. Terimakasih");
+}
+</script>
+      <script src="js/jquery-3.2.1.min.js"></script>
+    </body>
+</html>

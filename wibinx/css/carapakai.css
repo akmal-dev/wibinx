@@ -1,0 +1,9 @@
+.img-fluid {
+	float: right;
+}
+
+@media screen and (max-width:1200px) {
+	.img-fluid {
+		text-align: center;
+	}
+}

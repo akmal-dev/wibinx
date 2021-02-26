@@ -1,0 +1,40 @@
+.form-row {
+	float: right;
+}
+
+@media screen and (max-width:1200px) {
+	.col {
+		text-align: left;
+		font-size: 10px;
+	}
+
+	.card-body {
+		font-size: 10px;
+	}
+
+	.hero {
+		text-align: left;
+	}
+
+	.animated {
+		align-content: left;
+	}
+
+	.jumbotron {
+		width: 80%;
+		padding: 2px;
+	}
+
+	.form-row {
+	padding-bottom: 50px;
+	}
+
+	.my-2 {
+		text-align: left;
+	}
+
+	footer {
+		font-size: 15px;
+	}
+}
+

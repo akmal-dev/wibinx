@@ -1,0 +1,32 @@
+.p1 {
+	font-size: 40px;
+	padding: 0px 200px;
+}
+
+.p2 {
+	font-size: 16px;
+	padding: 0px 200px;	
+}
+
+form {
+	padding: 0px 200px;
+}
+
+@media screen and (max-width: 800px) {
+	header {
+		padding-bottom: 25%;
+	}
+.p1 {
+	font-size: 40px;
+	padding: 0px 20px;
+}
+
+.p2 {
+	font-size: 16px;
+	padding: 0px 20px;	
+}
+
+form {
+	padding: 0px 20px;
+}
+}

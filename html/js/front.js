@@ -60,3 +60,7 @@ $(function () {
         offset: 80
     });
 });
+
+$('.carousel').carousel({
+  interval: 2000
+})

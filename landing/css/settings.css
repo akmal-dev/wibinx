@@ -21632,8 +21632,7 @@ h6 {
   font-weight: 700;
 }
 
-a,
-span {
+a {
   display: inline-block;
 }
 
@@ -21670,9 +21669,6 @@ img {
   max-width: 100%;
 }
 
-span {
-  font-size: 12px;
-}
 
 .btn:focus,
 .btn:active {

@@ -21978,10 +21978,9 @@ body {
 @media (min-width: 480px) {
   .hero-content .title {
     font-size: 46px;
+    letter-spacing: -0.3px;
   }
-  .hero-content .title span{
-    font-size: 46px;
-  }
+  
 }
 
 @media (min-width: 576px) {
@@ -22005,7 +22004,6 @@ body {
 
 .hero-content p {
   color: #2a2833;
-  font-size: 12px;
   font-weight: 400;
   line-height: 30px;
   padding-right: 7px;
@@ -22306,11 +22304,17 @@ body {
   margin-bottom: 15px;
   margin-top:25px;
 }
-
+.content-wrapper .content-right-content .title span{
+  font-weight:400;
+}
 
 @media (min-width: 480px) {
   .content-wrapper .content-right-content .title {
     padding-right: 50px;
+  }
+  .content-wrapper .content-right-content .title span {
+    font-size:28px;
+    font-weight:400;
   }
 
 }
@@ -22318,6 +22322,11 @@ body {
 @media (min-width: 576px) {
   .content-wrapper .content-right-content .title {
     padding-right: 0;
+
+  }
+  .content-wrapper .content-right-content .title span {
+    font-size:28px;
+    font-weight:400;
   }
 }
 
@@ -22335,13 +22344,19 @@ body {
 .content-wrapper .content-right-content p {
   color: #323232;
   font-weight: 400;
-  font-size: 12px;
   line-height: 34px;
+}
+@media (min-width: 480px) {
+  .content-wrapper .content-right-content p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-right: 5px;
+  }
 }
 
 @media (min-width: 768px) {
   .content-wrapper .content-right-content p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
     padding-right: 5px;
   }

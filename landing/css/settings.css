@@ -6,6 +6,9 @@
 /*-- :::: Space Decrease :::: --*/
 /*=====================================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+.m--auto{
+  margin: auto !important;
+}
 .space-db--0 {
   margin-bottom: 0px;
 }
